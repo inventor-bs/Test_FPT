@@ -6,6 +6,9 @@ import Modal from './Modal';
 import Wedding from '../assets/Wedding.png'
 import Wedding1 from '../assets/Wedding1.png'
 import Wedding2 from '../assets/Wedding2.png'
+import Download from '../assets/Control/Download.svg'
+import Extend from '../assets/Control/Extend.svg'
+import Delete from '../assets/Control/Delete.svg'
 
 export default function Content() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -53,6 +56,11 @@ export default function Content() {
                             <p>After</p>
                         </div>
                         <img src={Wedding} alt="Uploaded" className="uploaded-image" />
+                        <div className="control">
+                            <img src={Download} alt="" />
+                            <img src={Extend} alt="" />
+                            <img src={Delete} alt="" />
+                        </div>
                         <div className="preview_image">
                             <img src={Wedding} alt="" />
                             <img src={Wedding1} alt="" />

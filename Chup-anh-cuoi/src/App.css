@@ -639,3 +639,23 @@
 .preview_image > img:first-child {
   border: 3px solid rgba(255, 103, 23, 1);
 }
+
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 114px;
+  border-radius: 8px;
+  gap: 19px;
+  margin-top: 84px;
+  margin-left: 12px;
+  background: rgba(39, 40, 48, 1);
+}
+
+.uploaded-image > .control > img {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
