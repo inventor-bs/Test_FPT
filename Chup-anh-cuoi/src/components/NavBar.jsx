@@ -228,7 +228,8 @@ export default function NavBar() {
                     left: isNavVisible ? '101.58%' : '',
                     marginLeft: !isNavVisible ? '5px' : '',
                     transform: 'translate(-50%, -50%)',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    zIndex: '100'
                 }}
             />
         </div>
